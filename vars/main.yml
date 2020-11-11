@@ -18,6 +18,9 @@ _node_exporter_systemd_service:
 _node_exporter_sysvinit_service:
   file: "/etc/init.d/node_exporter"
   mode: "0755"
+_node_exporter_openwrt_service:
+  file: "/etc/init.d/node_exporter"
+  mode: "0755"
 _node_exporter_upstart_service:
   file: "/etc/init/node_exporter.conf"
   mode: "0644"
